@@ -1,0 +1,84 @@
+body{
+    background-color: burlywood;
+}
+
+
+.login-box{
+    margin: auto;
+    height: 600px;
+    width: 800px;
+    background-color: coral;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.login-misc img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+label{
+    margin: 0 2rem;
+}
+
+.login-input{
+    height: 100vh;
+  margin:  auto;
+  position: relative;
+}
+
+.login-input .form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+input , label{
+    display: block;
+}
+
+.form-1 h1 {
+    text-align: center;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  width: 300px;
+  border-bottom: 1px solid;
+  background: none;
+  margin: 0.9rem 2rem;
+  font-size: 1rem;
+}
+
+button {
+    
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+  

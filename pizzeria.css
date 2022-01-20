@@ -1,0 +1,70 @@
+*{
+    color: coral;
+}
+
+body{
+    background-color: black;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 8px 0px;
+    /* letter-spacing: 2px; */
+    
+}
+
+.horizontal-list li a{
+    color: goldenrod;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+.text-center{
+    text-align: center;
+
+}
+
+.image{
+    display:flex;
+    align-items: center;
+}
+span{
+    padding: 10px;
+}    
+
+
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.horizontal-list li a:hover{
+    color: lightgrey;
+    
+}
+
+.login-container{
+    float: right;
+}
+
+.login-container li{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+.main-body{
+
+    background-image: url(./istockphoto-1301482898-170667a.jpg);
+    
+    
+    
+    
+}

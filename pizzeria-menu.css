@@ -1,0 +1,126 @@
+*{
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.imagelogo{
+    display:flex;
+    align-items: center;
+}
+
+.horizontal-list{
+    padding-left: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.cart{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.image{
+    display:flex;
+    align-items: center;
+}
+
+.container {
+    
+    height: 400px;
+    width: 1330px;
+    display: flex;
+    background-color: rgb(8, 15, 15);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-heading{
+    background-color: aliceblue;
+    width: 100px;
+}
+.item{
+    margin: 10px;
+    /* border: dotted black 2px; */
+    background-color: blanchedalmond;
+    height: 400px;
+    width: 300px;
+}
+
+.item-image{
+
+    position: relative;
+    height: 180px;
+    width:300px
+}
+
+.description{
+    font-size: 12px;
+    background-color: blanchedalmond;
+    color: gray;
+}
+
+.item-name{
+
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.symbol-veg {
+    
+    position: absolute;
+    top: 60px;
+    height: 20px;
+    width: 20px;
+}
+.choice{
+    display: flex;
+    flex-direction: row;
+    
+}
+.atc{
+    
+    background-color: blanchedalmond;
+    
+}
+
+.crust{
+    background-color: blanchedalmond;
+}
+
+.pizza-size{
+    background-color: blanchedalmond;
+}
+
+.symbol-nonveg1 {
+    
+    position: absolute;
+    top: 481px;
+    height: 20px;
+    width: 20px;
+}
+
+.pizza-image{
+    width: 300px;
+}
+
+/* .symbol-veg{
+    height:20px;
+    width: 20px;
+} */
