@@ -190,6 +190,7 @@ section{
 }
 
 .order-now-btn{
+    
     border-radius: 50px;
     margin-right: 5px;
     float: right;
@@ -198,6 +199,6 @@ section{
 }
 .order-now{
 position: relative;
-top: 31vh;
+top: 29vh;
 }
 
